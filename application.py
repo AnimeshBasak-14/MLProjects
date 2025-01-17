@@ -39,8 +39,9 @@ def predict_datapoint():
     
     
 
-if __name__=="__main__":      
-    app.run(host="0.0.0.0")        
+   
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=8080)  # Port 8080 is standard for EB
     # app.run(host="0.0.0.0",debug=True)        
 
 
