@@ -19,6 +19,13 @@ class DataIngestionConfig:
     raw_data_path: str=os.path.join('artifacts',"data.csv")
 
 class DataIngestion:
+    '''
+    This class is responsible for ingesting data for the machine learning pipeline. 
+    It reads the raw data, splits it into training and testing sets, and saves these 
+    sets to specified file paths.
+    '''
+    
+    
     def __init__(self):
         self.ingestion_config=DataIngestionConfig()
 
