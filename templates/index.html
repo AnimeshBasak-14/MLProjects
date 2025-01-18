@@ -1,9 +1,10 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Exam Performance Indicator</title>
+    <link rel="icon" href="img\icon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -19,16 +20,24 @@
     <main>
         <section>
             <h2>About the Project</h2>
-            <p>The <strong>Student Exam Performance Indicator</strong> is designed to analyze and predict students' academic performance based on various input factors. This project utilizes advanced machine learning techniques to offer accurate predictions for math scores, using features such as:</p>
+            <p>The <strong>Student Exam Performance Indicator</strong> is designed to analyze and predict students' academic performance based on various input factors. This project utilizes advanced machine learning techniques and is deployed on an AWS EC2 instance with containerized management via AWS Elastic Container Registry (ECR). It uses the Kaggle dataset: <a href="https://www.kaggle.com/datasets/spscientist/students-performance-in-exams" target="_blank">Students Performance in Exams</a>.</p>
+            <p>The system predicts the <strong>math score</strong> of a student based on other factors such as gender, parental education level, test preparation, and scores in reading and writing.</p>
+        </section>
+
+        <section>
+            <h2>Dataset Details</h2>
+            <p>The dataset contains the following columns, which serve as features for prediction:</p>
             <ul>
-                <li>Gender</li>
-                <li>Race or Ethnicity</li>
-                <li>Parental Level of Education</li>
-                <li>Lunch Type</li>
-                <li>Test Preparation Course</li>
-                <li>Reading and Writing Scores</li>
+                <li><strong>Gender:</strong> Indicates the gender of the student (e.g., <em>male</em> or <em>female</em>).</li>
+                <li><strong>Race/Ethnicity:</strong> Categorizes students based on race/ethnicity (e.g., <em>group A</em>, <em>group B</em>, etc.).</li>
+                <li><strong>Parental Level of Education:</strong> Represents the highest level of education completed by the student's parent or guardian.</li>
+                <li><strong>Lunch:</strong> Indicates the type of lunch the student receives (e.g., <em>standard</em> or <em>free/reduced</em>).</li>
+                <li><strong>Test Preparation Course:</strong> Specifies whether the student completed a test preparation course (<em>completed</em> or <em>none</em>).</li>
+                <li><strong>Reading Score:</strong> The score obtained by the student in the reading test.</li>
+                <li><strong>Writing Score:</strong> The score obtained by the student in the writing test.</li>
             </ul>
         </section>
+
         <section>
             <h2>Key Features</h2>
             <p>Our application provides:
@@ -39,6 +48,12 @@
             </ul>
             </p>
         </section>
+
+        <section>
+            <h2>Deployment Details</h2>
+            <p>This project is deployed on an AWS EC2 instance, with container management via AWS Elastic Container Registry (ECR). The machine learning model was trained using the features outlined above to accurately predict math scores. Explore the source code on <a href="https://github.com/AnimeshBasak-14/MLProjects" target="_blank">GitHub</a>.</p>
+        </section>
+
         <section>
             <h2>Try It Out</h2>
             <p>Head over to our <a href="home.html">Prediction Page</a> to enter student details and predict their math score.</p>
