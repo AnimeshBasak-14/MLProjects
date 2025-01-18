@@ -59,10 +59,14 @@ You can find the source code and contribute to the project on our [GitHub reposi
    ```bash
    git clone https://github.com/your-username/student-exam-performance-indicator.git
    cd student-exam-performance-indicator
-   '''
 2. Set up a virtual environment and install dependencies:
-'''
-python -m venv venv
-source venv/bin/activate  # On Windows, use venv\Scripts\activate
-pip install -r requirements.txt
-'''
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows, use venv\Scripts\activate
+   pip install -r requirements.txt
+3. Run the Flask app locally:
+    ```bash
+
+   python app.py
+
+5. After running the app, visit [http://127.0.0.1:5000/](http://127.0.0.1:5000/) in your browser to interact with the application.
