@@ -40,11 +40,10 @@ This project is deployed on an AWS EC2 instance. The deployment leverages AWS El
 
 - **Home**: Visit the home page to get an overview of the project.
 - **Prediction Page**: Head to the prediction page to enter student details and get predictions for the math score.
-- **About**: Learn more about the project and how it works.
 
 ## Explore the Source Code
 
-You can find the source code and contribute to the project on our [GitHub repository](https://github.com/your-username/student-exam-performance-indicator).
+You can find the source code and contribute to the project on our [GitHub repository](https://github.com/AnimeshBasak-14/MLProjects).
 
 ## How to Set Up Locally
 
