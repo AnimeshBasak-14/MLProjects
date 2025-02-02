@@ -1,6 +1,6 @@
 # Student Exam Performance Indicator
 
-Welcome to the **Student Exam Performance Indicator** [web application](http://ec2-3-238-242-162.compute-1.amazonaws.com:8080/)! This system is designed to analyze and predict students' academic performance based on various input factors, primarily focusing on predicting a student's math score.
+Welcome to the **Student Exam Performance Indicator**! This system is designed to analyze and predict students' academic performance based on various input factors, primarily focusing on predicting a student's math score.
 
 ## Project Overview
 
